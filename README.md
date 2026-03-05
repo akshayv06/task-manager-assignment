@@ -1,5 +1,4 @@
-# <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/0bc5c52a-2a90-47b5-ad7f-1d374980804c" /> Task Manager
-
+# <img src="7bb0ab5b-51c2-484a-a801-bf1c2ad8df93.png" alt="emoji" width="32" height="32" /> Task Manager
 A full-featured **Spring Boot** REST API application for managing tasks with user authentication, role-based access control, task lifecycle management, and analytics.
 
 ---
