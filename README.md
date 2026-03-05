@@ -31,4 +31,4 @@ Task Manager is a Spring Boot application for managing tasks. It supports user r
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/akshayv06/task-manager.git
+git clone https://github.com/akshayv06/task-manager-assignment.git
