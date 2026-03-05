@@ -25,6 +25,10 @@ public class TaskServiceImpl implements TaskService {
     @Override
     public TaskResponse createTask(TaskRequest request) {
 
+        if (request.getTitle() == null || request.getDescription() == null) {
+            throw new RuntimeException("Title and Description must not be null");
+        }
+
         Task task = mapper.toEntity(request);
 
         task.setStatus(TaskStatus.CREATED);

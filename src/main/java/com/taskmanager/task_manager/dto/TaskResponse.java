@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -16,5 +17,7 @@ public class TaskResponse {
     private String title;
     private String description;
     private TaskStatus status;
+    private String createdBy;
+    private LocalDateTime createdAt;
 
 }
